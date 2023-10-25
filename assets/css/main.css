@@ -3064,7 +3064,7 @@ button:disabled,
 	background-color: #4686a0;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
-	background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+	background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #c66b6b 10%, #913985 30%, #4361c2);
 	background-position: top left, center center, center center;
 	background-size: auto, cover, cover;
 	overflow: hidden;
@@ -3230,7 +3230,7 @@ button:disabled,
 	-webkit-transition: opacity 1s ease;
 	-ms-transition: opacity 1s ease;
 	transition: opacity 1s ease;
-	background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+	background-image: linear-gradient(45deg, #913985, #4361c2);
 	content: '';
 	height: 100%;
 	left: 0;
@@ -3267,7 +3267,7 @@ body.is-preload #header:after {
 	background-color: #4686a0;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
-	background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+	background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #913985 50%, #c66b6b 95%);
 	background-position: top left, center center, center center;
 	background-size: auto, cover, cover;
 	text-align: center;
