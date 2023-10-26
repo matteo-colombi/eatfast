@@ -233,6 +233,7 @@ i {
 }
 
 p {
+	text-align: justify;
 	margin: 0 0 2em 0;
 }
 
@@ -2486,6 +2487,22 @@ input[type="radio"]+label:before {
 	display: block;
 }
 
+.image.icon {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+	padding-bottom: 2em;
+}
+
+.image.icon img {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 50%;
+}
+
 .image.left {
 	float: left;
 	padding: 0 1.5em 1em 0;
@@ -2966,7 +2983,7 @@ button:disabled,
 	background-color: #333;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed;
-	background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+	background-image: url("images/overlay1.png"), url("../../images/header_alt4.jpg");
 	background-size: auto, cover;
 }
 
@@ -3163,7 +3180,29 @@ button:disabled,
 	margin: 0;
 }
 
+#header h1::before {
+	content: "EatFast";
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+/* Stile del testo quando il mouse passa sopra di esso */
+#header h1:hover::before {
+	content: "FastEat";
+	text-align: center;
+	/* font-size: 100pt; */
+	font-weight: bold;
+}
+/* 
+#header h1:hover {
+	margin: 0;
+	content: "FastEat";
+	text
+} */
+
 #header p {
+	text-align: center;
 	margin: 1em 0 0 0;
 }
 
