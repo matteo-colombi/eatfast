@@ -3180,27 +3180,6 @@ button:disabled,
 	margin: 0;
 }
 
-#header h1::before {
-	content: "EatFast";
-	text-align: center;
-	font-weight: bold;
-	
-}
-
-/* Stile del testo quando il mouse passa sopra di esso */
-#header h1:hover::before {
-	content: "FastEat";
-	text-align: center;
-	/* font-size: 100pt; */
-	font-weight: bold;
-}
-/* 
-#header h1:hover {
-	margin: 0;
-	content: "FastEat";
-	text
-} */
-
 #header p {
 	text-align: center;
 	margin: 1em 0 0 0;
