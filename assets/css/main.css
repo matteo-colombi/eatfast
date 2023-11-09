@@ -3496,7 +3496,12 @@ body.is-preload #header:after {
 	/* List */
 
 	ul.major-icons li {
-		padding: 2em;
+		padding: 1.2em;
+	}
+
+	ul.major-icons img {
+		width: 100px;
+		height: 100px;
 	}
 
 	ul.major-icons li .icon {
