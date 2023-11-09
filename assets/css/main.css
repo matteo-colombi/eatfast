@@ -2739,11 +2739,12 @@ ul.icons li .icon:before {
 ul.major-icons {
 	list-style: none;
 	padding-left: 0;
+	text-align: center;
 }
 
 ul.major-icons li {
 	display: inline-block;
-	padding: 2.5em;
+	padding: 1em;
 	text-align: center;
 }
 
