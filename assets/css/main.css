@@ -2505,8 +2505,8 @@ input[type="radio"]+label:before {
 .image.icon img {
 	margin-left: auto;
 	margin-right: auto;
-	height: auto;
-	width: 50%;
+	height: 90%;
+	width: auto;
 }
 
 .image.left {
